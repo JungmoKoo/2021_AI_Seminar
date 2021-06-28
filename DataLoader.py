@@ -48,9 +48,7 @@ def main():
         cv2.imshow("img", img)
 
         # TODO: Change the tensor(target_tensor["masks"][0][0]) into an gray image.
-        mask = target_tensor["masks"][0][0].cpu().numpy() * 255
-        mask = mask.astype(np.uint8)
-        cv2.imshow("mask", mask)
+        # cv2.imshow("mask", mask)
 
         cv2.waitKey(0)
 
