@@ -21,7 +21,7 @@ $ tar -xvf pycharm-community-2021.1.2.tar.gz
 $ sh pycharm-community-2021.1.2/bin/pycharm.sh
 ```
 
-##If you want to change your GPU, put the code below inside the python code.
+## If you want to change your GPU, put the code below inside the python code.
 - {GPU_NUMBER}: change this parameter
 ```python
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
